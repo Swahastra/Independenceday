@@ -48,9 +48,7 @@ button {
     border: 1px solid #000;
     overflow: hidden;
     position: relative;
-    align-items: Center;
-    animation:fall 3.5s linear infinite;
-    top:-10px;
+    animation: wave 3.5s infinite ease-in-out;
 }
 
 @keyframes wave {
