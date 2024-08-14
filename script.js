@@ -20,11 +20,12 @@ document.getElementById('open-btn').addEventListener('click', function() {
         const message = document.getElementById('message');
         message.classList.remove('hidden');
         
-        // Reveal each line of the message
-        const lines = message.querySelectorAll('span');
-        lines.forEach((line, index) => {
-            line.classList.add('reveal');
-            line.style.animationDelay = `${index * 1}s`; // Delay for each line
+        // Reveal each word of the message with a delay
+        const words = message.querySelectorAll('span');
+        words.forEach((word, index) => {
+            setTimeout(() => {
+                word.classList.add('reveal');
+            }, index * 1000); // Delay each word by 1 second
         });
     }, 1000);
 });
