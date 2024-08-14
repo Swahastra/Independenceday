@@ -139,6 +139,7 @@ button {
     top: 250px; /* Position the message below the flag */
     left: 50%;
     transform: translateX(-50%);
+    font-family: cursive;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 2px;
