@@ -56,6 +56,7 @@ button {
     50% { transform: translateX(1%); }
 }
 
+
 .saffron, .white, .green {
     height: 33.33%;
 }
